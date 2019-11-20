@@ -1,0 +1,24 @@
+<% include partials/header.ejs %>
+<main>  
+    <div>
+        <h1>Time Management</h1>
+        <form action='/'method='POST' autocomplete="off" >
+            <label for="Activities">Activities</label>
+            <input type="text" id="activity" name="activity"><br>
+            <label for="Time">Time</label>
+            <input type="text" name="time" id="time"><br>
+            <select name="" id="Time">
+                <option value="Select" default>Select time</option>
+                <option value="Hours" id="hours">Hours</option>
+                <option value="Min" id="Min">Minutes</option>
+            </select>
+            <br>
+            <br>
+            <input type="button" id="ActivityButton" value="Add Activity" onclick="addValue()">
+            <input type="submit" id="ActivityButton" value="Save">
+        </form>
+    </div>
+</main>
+<div id="container"></div>
+<script src="js/calculate.js"></script>
+<% include partials/footer.ejs %>

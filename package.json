@@ -1,0 +1,27 @@
+{
+  "name": "lifemanagement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gerson Areche",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "eje": "^1.0.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.10",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.4",
+    "pg": "^7.12.1",
+    "sequelize": "^5.21.2"
+  },
+  "devDependencies": {
+    "html-webpack-link-type-plugin": "^1.0.3"
+  }
+}

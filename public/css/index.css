@@ -1,0 +1,94 @@
+body{
+    background-color: whitesmoke;
+    color:black;
+    font-family: 'Amiri', serif;
+    padding:30px;
+}
+
+label{
+    margin-left:auto;
+    margin-right:auto;
+    font-size:25px;
+    color:black;
+    
+}
+
+input[type=text]{
+  margin-right:80px;
+}
+
+input{
+    padding:10px;
+    width:40vw;
+    Height:30px;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lora', serif;
+    margin:10px;
+    
+}
+
+#Time{
+    
+    height:35px;
+    font-size:20px;
+    display:flex;
+    justify-content: center;
+    background-color: orange;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 10px;
+    color:white;
+    margin-left:auto;
+    margin-right:auto;
+}
+#ActivityButton{
+    color:rgb(241, 235, 235);
+    background-color: orange;
+    height:50px;
+    text-shadow: 3px 3px 7px black;
+    font-size:20px;
+    margin:12px;
+    border-radius: 10px;
+    border-color: rgb(206, 198, 198);
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#ActivityButton:hover{
+    background-color: white;
+    color:  rgb(42, 37, 37);
+}
+select{
+    font-family: 'Lora', serif;
+}
+option{
+    font-family: 'Lora', serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding:10px;
+}
+h1{
+    text-align: center;
+    font-size:35px;
+    color:black;
+    
+    font-family: 'Amiri', serif;
+    
+}
+
+
+p{
+   display:flex;
+   justify-content: center;
+   color: white;
+   font-size:7px;
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+  }
